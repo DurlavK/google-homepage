@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #505050;
+}
+
+svg {
+    width: 1em;
+    height: 1em;
+    color: #505050;
+}
+
+.grid{
+    height:23px;
+    position:relative;
+    bottom:4px;
+  }
+
+.nav__list {
+    float: right;
+    list-style-type: none;
+}
+
+.nav__item {
+    float: left;
+    padding: 1em;
+}
+
+.nav__item a {
+    color: #505050;
+}
+
+.search {
+    text-align: center;
+    margin-top: 5em;
+    flex: 1;
+}
+
+.search__logo {
+    padding: 2em;
+}
+
+.search__form {
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    display: flex;
+}
+
+.search__form:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search__form:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+
+.search__form--icon {
+    fill: #948f8f;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    position: relative;
+    top:12px;
+    left:10px;
+}
+.search__form--bar {
+    padding-left: 15px;
+}
+.search__form--mic {
+    display: flex;
+    align-items: center;
+    height:20px;
+    position:relative;
+    top:12px;
+    left:10px;
+}
+
+input {
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+}
+
+.search__btn {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+}
+  
+.button:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+}
+
+.button:focus {
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    color: #70757a;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.footer__list {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer__item {
+    padding: 1em;
+    color: #70757a;
+}
+
+.footer__item a{
+    color: #70757a;
+}
+
+.signbutton{
+    background-color: #4885ed;
+    color: #fff;
+    border:none;
+    border-radius:3px;
+    padding:7px 10px;
+    position:relative;
+    bottom:7px;
+    font-weight:bold;
+    cursor: pointer;
+}
