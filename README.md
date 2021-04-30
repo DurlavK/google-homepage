@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://laravel.com/"><img src="https://www.theodinproject.com/assets/odin-logo-2d729f16279e9fc3b58ce847eacf07f883bdfc95eb23bb5064ed59d36ef551d6.svg" width="100"></a>
+  <a href="https://www.theodinproject.com/"><img src="https://www.theodinproject.com/assets/odin-logo-2d729f16279e9fc3b58ce847eacf07f883bdfc95eb23bb5064ed59d36ef551d6.svg" width="100"></a>
   <br>
   Google Homepage
   <br>
@@ -10,8 +10,10 @@
 <p align="center">
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-
 </p>
+<h1 align="center">
+<a href="https://durlavk98.github.io/google-homepage/"><img src="https://img.shields.io/badge/Live%20demo%20at-GitHub%20Pages-blueviolet.svg?style=for-the-badge&logo=GitHub"/></a>
+</h1>
 
 
 <p align="center">
@@ -22,7 +24,7 @@
 </p>
 
 
-![preview](https://raw.githubusercontent.com/durlavk98/google-homepage/main/preview.png)
+![preview](https://raw.githubusercontent.com/durlavk98/google-homepage/main/google-homepage.png)
 
 ## About
 This is a clone of google.com's home page. It has been built using html and css.
